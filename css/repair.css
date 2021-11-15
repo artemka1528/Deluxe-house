@@ -1,0 +1,432 @@
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main {
+  background: url("../img/REPAIR/main/bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 130px 0 8px 0;
+}
+
+.ontitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.title-main {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 93px;
+}
+
+.submain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 83px 0 0 0;
+}
+
+.submain-text {
+  width: 100%;
+  max-width: 649px;
+  text-align: center;
+}
+
+.submain-text:not(:first-child) {
+  margin-top: 43px;
+}
+
+.payment {
+  padding-top: 174px;
+}
+
+.payment__title {
+  font-family: Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  color: #E1DECE;
+  text-align: center;
+}
+
+.payment-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1184px) {
+  .payment-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.payment-content-col {
+  margin-top: 55px;
+}
+
+.payment-content-col__item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  max-width: 552px;
+}
+
+@media screen and (max-width: 1184px) {
+  .payment-content-col__item {
+    text-align: center;
+  }
+}
+
+.payment-content-col__p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1184px) {
+  .payment-content-col__p {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.payment-content-col__p::before {
+  display: block;
+  content: '35%';
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 26px;
+  margin-right: 10px;
+}
+
+.payment-content-col__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  max-width: 517px;
+}
+
+@media screen and (max-width: 1184px) {
+  .payment-content-col__text {
+    text-align: center;
+  }
+}
+
+.price {
+  padding-top: 236px;
+}
+
+.price-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 559px) {
+  .price-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.price-card {
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 270px;
+  margin-top: 30px;
+}
+
+.price-card-header {
+  background: #E1DECE;
+  margin-top: 11px;
+  margin-bottom: 12px;
+}
+
+.price-card-header__ontitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+  color: #191919;
+}
+
+.price-card-header__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #191919;
+}
+
+.price-card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price-card-body__ontitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  color: #191919;
+  width: 100%;
+  max-width: 153px;
+  margin: 0 auto;
+}
+
+.price-card-body__111 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+.price-card-body__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: #191919;
+  width: 100%;
+  max-width: 172px;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+
+.price-card-body__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  color: #000000;
+  padding-left: 18px;
+}
+
+.btn-black {
+  background: #191919;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 220px;
+  height: 47px;
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin: 84px auto 13px auto;
+}
+
+.work {
+  padding-top: 247px;
+}
+
+.working {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 1184px) {
+  .working {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.working-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 542px;
+}
+
+.working-img-col {
+  position: relative;
+}
+
+.working-img-col img {
+  width: 100%;
+}
+
+.working-img-col__before {
+  position: absolute;
+  top: 68%;
+  width: 100%;
+  height: 24px;
+  background: #191919;
+}
+
+.working-img-col__after {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  height: 24px;
+  background: #191919;
+}
+
+.working-content {
+  width: 100%;
+  max-width: 589px;
+}
+
+.working-content__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 22px;
+}
+
+.block-info {
+  padding-top: 200px;
+  padding-bottom: 178px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1184px) {
+  .block-info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.block-info-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 58px;
+}
+
+.block-info-content__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 51px;
+  margin-bottom: 22px;
+}
+
+.block-info-content__item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #C4C4C4;
+}

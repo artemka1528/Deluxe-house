@@ -1,0 +1,222 @@
+body {
+  color: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+.btn {
+  width: 100%;
+  max-width: 220px;
+  height: 62px;
+  font-family: 'Garamond';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #E1DECE;
+  border: 1px solid #E1DECE;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.btn:hover {
+  background: #E1DECE;
+  color: #191919;
+}
+
+.btn:active {
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-r {
+  width: 100%;
+  max-width: 220px;
+  height: 62px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #191919;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.btn-r:hover {
+  background: #E1DECE;
+}
+
+.btn-r:active {
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu__hover {
+  position: relative;
+}
+
+.menu__hover:hover::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  top: 24px;
+}
+
+#menu-portfolio__list {
+  position: relative;
+}
+
+#menu-portfolio__list:hover .menu-portfolio__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-portfolio__list {
+  position: absolute;
+  display: none;
+  width: 250%;
+}
+
+.menu-portfolio__item {
+  margin-top: 12px;
+}
+
+.gamburger {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .gamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.gamburger span {
+  width: 25px;
+  height: 1px;
+  background-color: #E1DECE;
+  color: #E1DECE;
+}
+
+.gamburger span:not(:first-child) {
+  margin-top: 5px;
+}
+
+.article__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.article__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 38px;
+}
+
+.article-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 139px;
+  margin-bottom: 200px;
+}
+
+.article-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 170px;
+}
+
+@media screen and (max-width: 558px) {
+  .article-cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.article-card {
+  width: 100%;
+  max-width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 558px) {
+  .article-card {
+    margin-top: 20px;
+  }
+}
+
+.article-card__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 39px;
+}
+
+.article-card__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+  color: #CDCDCB;
+  margin-top: 19px;
+}
