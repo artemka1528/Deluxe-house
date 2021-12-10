@@ -298,7 +298,6 @@ main {
   left: 0;
   top: 0;
 }
-
 .pursuit__title {
   margin: 0 0 0 auto;
   font-family: 'Garamond';
@@ -388,7 +387,11 @@ main {
   text-align: center;
   margin-top: 19px;
 }
-
+@media screen and (max-width: 1300px) {
+  .pursuit img {
+    display: none;
+  }
+}
 .why-me {
   z-index: 30;
   display: -webkit-box;
